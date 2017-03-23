@@ -13,6 +13,8 @@
 		67E947FA1E83A5140066D64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E947F81E83A5140066D64F /* Main.storyboard */; };
 		67E947FC1E83A5150066D64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E947FB1E83A5150066D64F /* Assets.xcassets */; };
 		67E947FF1E83A5150066D64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E947FD1E83A5150066D64F /* LaunchScreen.storyboard */; };
+		67E948081E83A91A0066D64F /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E948071E83A91A0066D64F /* FoodCell.m */; };
+		67E9480B1E83BFFA0066D64F /* DrinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E9480A1E83BFFA0066D64F /* DrinkCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		67E947FB1E83A5150066D64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E947FE1E83A5150066D64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E948001E83A5150066D64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E948061E83A91A0066D64F /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		67E948071E83A91A0066D64F /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		67E948091E83BFFA0066D64F /* DrinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkCell.h; sourceTree = "<group>"; };
+		67E9480A1E83BFFA0066D64F /* DrinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				67E947F31E83A5140066D64F /* AppDelegate.m */,
 				67E947F51E83A5140066D64F /* ViewController.h */,
 				67E947F61E83A5140066D64F /* ViewController.m */,
+				67E948091E83BFFA0066D64F /* DrinkCell.h */,
+				67E9480A1E83BFFA0066D64F /* DrinkCell.m */,
 				67E947F81E83A5140066D64F /* Main.storyboard */,
+				67E948061E83A91A0066D64F /* FoodCell.h */,
+				67E948071E83A91A0066D64F /* FoodCell.m */,
 				67E947FB1E83A5150066D64F /* Assets.xcassets */,
 				67E947FD1E83A5150066D64F /* LaunchScreen.storyboard */,
 				67E948001E83A5150066D64F /* Info.plist */,
@@ -150,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E9480B1E83BFFA0066D64F /* DrinkCell.m in Sources */,
 				67E947F71E83A5140066D64F /* ViewController.m in Sources */,
+				67E948081E83A91A0066D64F /* FoodCell.m in Sources */,
 				67E947F41E83A5140066D64F /* AppDelegate.m in Sources */,
 				67E947F11E83A5140066D64F /* main.m in Sources */,
 			);
